@@ -50,3 +50,6 @@ Ingrese el puerto del servidor (ej: 5000):
 ## 👤 Autora
 
 Antonella — Arquitectura de Software
+<img width="850" height="180" alt="image" src="https://github.com/user-attachments/assets/69fcc69e-57bd-4585-975b-abd7669de363" />
+
+
