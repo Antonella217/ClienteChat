@@ -15,3 +15,38 @@ Este proyecto forma parte de un laboratorio de Arquitectura de Software. Impleme
   - **Hilo ReceptorMensajes:** recibe mensajes del servidor y los muestra en consola.
 
 ## 🏗️ Arquitectura
+  CLIENTE
+├─ main (hilo principal)
+│  └─ lee teclado → envía al servidor
+└─ ReceptorMensajes (hilo daemon)
+└─ lee del servidor → imprime en consola
+
+## 🚀 Ejecución
+
+### Requisitos
+- Java JDK 8 o superior
+- Tener el servidor (ServidorChat) corriendo previamente
+
+### Compilar
+```bash
+javac ClienteChat.java
+```
+
+### Ejecutar
+```bash
+java ClienteChat
+```
+
+Al iniciar, te pedirá:
+Ingrese la direccion del servidor (ej: localhost o 192.168.1.x):
+Ingrese el puerto del servidor (ej: 5000):
+
+## 🛠️ Tecnologías
+
+- Java
+- Sockets TCP
+- Hilos (Threads)
+
+## 👤 Autora
+
+Antonella — Arquitectura de Software
